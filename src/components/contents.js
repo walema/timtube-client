@@ -1,3 +1,6 @@
+import './../style.css'
+
+
 function Contents() {
     return(
         <div style={{width:"100%"}}>

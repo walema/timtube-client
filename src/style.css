@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .sidebar {
+        min-height: 100% !important;
+        width: 100% !important;
+    }
+    .sidebar-wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .sidebar-element{
+        padding-top: 20px!important;
+        padding-bottom: 20px;
+    }
+}
+
+.sidebar {
+    background-color: #282c34;
+    min-height: 100vh;
+    width: 80%;
+}
+
+.sidebar-wrapper{
+    gap: 10px;
+}
+
+.sidebar-element{
+    padding-top: 50px;
+}
+.sidebar-button:hover{
+    color: #61dafb!important;
+}
