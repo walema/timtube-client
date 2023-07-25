@@ -14,8 +14,6 @@ function MainContent() {
                 <div className="col-md-11">
                     <Contents></Contents>
                 </div>
-
-
             </div>
             <div className="">
                 <Footer/>
