@@ -14,16 +14,16 @@
         padding-bottom: 20px;
     }
     .middle-video-description{
-
-    }
-    .middle-video-description-text{
-      position: absolute;
-        padding-bottom: 15px;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     .middle-video-image{
-        position: relative;
-        text-align: center;
-        color: white;
+        flex: 0 0 auto;
+        width: 100%;
+        /*opacity: 50%;*/
+        filter: opacity(70%);
     }
     .middle-video-sharebtn{
         display: none;
@@ -42,9 +42,6 @@
 
 /*}*/
 .middle-video-minutes{
-    flex: 0 0 auto;
-    width: 16.66666667%;
-
 
 }
 .middle-video-sharebtn{
@@ -57,9 +54,7 @@
 }
 
 .middle-video-image{
-    flex: 0 0 auto;
-    /*width: 25% ;*/
-    width: 150px;
+
 }
 
 .sidebar {

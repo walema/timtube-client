@@ -1,5 +1,11 @@
 import ListGroup from 'react-bootstrap/ListGroup';
-import {BsFillHouseDoorFill, BsFillMouse2Fill, BsFillSendFill} from "react-icons/bs";
+import {
+    BsFillHouseDoorFill,
+    BsFillMouse2Fill,
+    BsFillPaletteFill,
+    BsFillPersonLinesFill,
+    BsFillSendFill
+} from "react-icons/bs";
 import './../style.css'
 
 
@@ -11,12 +17,12 @@ function SideBar(){
             <div className="sidebar-wrapper">
                 <div className="sidebar-element">
                     <a>
-                        <BsFillHouseDoorFill className="sidebar-button" color="darkgray" size="2em"/>
+                        <BsFillPaletteFill className="sidebar-button" color="darkgray" size="2em"/>
                     </a>
                 </div>
                 <div  className="sidebar-element">
                     <a>
-                        <BsFillSendFill className="sidebar-button" color="darkgray" size="2em"/>
+                        <BsFillPersonLinesFill className="sidebar-button" color="darkgray" size="2em"/>
                     </a>
                 </div>
                 <div className="sidebar-element">
