@@ -5,7 +5,7 @@ import './../style.css'
 
 function SideBar(){
     return(
-        <div className="sidebar">
+        <div className="">
             {/*BsFillMouse2Fill*/}
 
             <div className="sidebar-wrapper">

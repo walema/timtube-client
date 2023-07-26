@@ -5,21 +5,23 @@ import Footer from "./footer";
 
 function MainContent() {
     return (
-        <>
-            <div className="row">
-                <div className="col-md-1">
-                    <SideBar></SideBar>
-                </div>
+// /* margin-right: calc(-0.5 * var(--bs-gutter-x)); */
+// /* margin-left: calc(-0.5 * var(--bs-gutter-x));
+    <>
+        <div className="row" style={{marginRight:"0px",marginLeft:"0px"}}>
+            <div className="col-md-1 sidebar">
+                <SideBar></SideBar>
+            </div>
 
-                <div className="col-md-11">
-                    <Contents></Contents>
-                </div>
+            <div className="col-md-11" style={{backgroundColor:"darkcyan"}}>
+                <Contents></Contents>
             </div>
-            <div className="">
-                <Footer/>
-            </div>
-        </>
-    )
+        </div>
+        <div className="">
+            <Footer/>
+        </div>
+    </>
+)
 }
 
 export default MainContent;
