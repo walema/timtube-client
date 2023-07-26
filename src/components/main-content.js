@@ -13,7 +13,7 @@ function MainContent() {
                 <SideBar></SideBar>
             </div>
 
-            <div className="col-md-11" style={{backgroundColor:"darkcyan"}}>
+            <div className="col-md-11" style={{backgroundColor:"#090C13"}}>
                 <Contents></Contents>
             </div>
         </div>
