@@ -46,14 +46,18 @@
 }
 .middle-video-sharebtn{
     flex: 0 0 auto;
-    width: 8.33333333%;
+    width: 7.33333333%;
+    position: relative; left:200px; bottom: 60px;
 }
 .middle-video-option{
     flex: 0 0 auto;
-    width: 8.33333333%;
+    width: 7.33333333%;
+    position: relative; left:250px; bottom: 90px;
 }
 
 .middle-video-image{
+    flex: 0 0 auto;
+    width: 100%;
 
 }
 
